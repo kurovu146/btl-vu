@@ -1,0 +1,104 @@
+.container {
+    width: 1200px;
+    padding: 0;
+    margin: 0 128px;
+}
+
+.no-lazyload {
+    background-color: #067890;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.team-1, .team-2 {
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    margin: 0 16px;
+}
+
+#menu {
+    height: 30px;
+    line-height: 30px;
+    background-color: #F5F5F5;
+    margin-bottom: 5px;
+    clear: both;
+    text-align: center;
+}
+
+#menu ul,
+#menu li {
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    position: relative;
+    float: left;
+    list-style: none;
+    padding: auto;
+    margin: auto;
+}
+
+#menu li a {
+    width: 30%;
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    background-color: #5DC2A7;
+    color: white;
+}
+
+#menu ul ul li a {
+    width: 30%;
+    text-align: left;
+}
+
+#menu li a:hover {
+    background-color: #118868;
+}
+
+#menu ul ul {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    visibility: hidden;
+}
+
+#menu ul li:hover ul {
+    visibility: visible;
+}
+
+.content {
+    padding: 5px;
+    width: 760px;
+    min-height: 400px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.border {
+    border-top: 1px solid #ddd;
+    margin: 16px 0;
+}
+
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+.data-item {
+    display: flex; 
+    width: 50%; 
+    justify-content: space-between;
+    padding: 4px 8px;
+}

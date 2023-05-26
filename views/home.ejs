@@ -1,0 +1,150 @@
+<div style="display: flex;">
+    <div style="width: 50%;">
+        <div style="text-align: center;  margin-bottom: 24px; font-size: medium;"><b>DỮ LIỆU THEO GIÂY</b></div>
+        <div style="display: flex;">
+            <div class="data-item">
+                <div>Voltage [V]</div>
+                <div><%= data[0].voltage %></div>
+            </div>
+            <div class="data-item">
+                <div>Current [A]</div>
+                <div><%= data[0].current %></div>
+            </div>
+        </div>
+
+        <div style="display: flex;">
+            <div class="data-item">
+                <div>Power [W]</div>
+                <div><%= data[0].power %></div>
+            </div>
+            <div class="data-item">
+                <div>Energy [Wh]</div>
+                <div><%= data[0].energy %></div>
+            </div>
+        </div>
+
+        <div style="display: flex;">
+            <div class="data-item">
+                <div>Frequency [Hz]</div>
+                <div><%= data[0].frequency %></div>
+            </div>
+            <div class="data-item">
+                <div>Power Factor [UN]</div>
+                <div><%= data[0].power_factor %></div>
+            </div>
+        </div>
+
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Datetime</th>
+                <th>Voltage [V]</th>
+                <th>Current [A]</th>
+                <th>Power [W]</th>
+                <th>Energy [Wh]</th>
+                <th>Power Factor [UN]</th>
+            </tr>
+            <tr>
+                <td><%=data[0].id%></td>
+                <td><%=data[0].date_time%></td>
+                <td><%=data[0].voltage%></td>
+                <td><%=data[0].current%></td>
+                <td><%=data[0].power%></td>
+                <td><%=data[0].frequency%></td>
+                <td><%=data[0].power_factor%></td>
+            </tr>
+            <tr>
+                <td><%=data[0].id + 1%></td>
+                <td><%=data[0].date_time%></td>
+                <td><%=data[0].voltage%></td>
+                <td><%=data[0].current%></td>
+                <td><%=data[0].power%></td>
+                <td><%=data[0].frequency%></td>
+                <td><%=data[0].power_factor%></td>
+            </tr>
+            <tr>
+                <td><%=data[0].id + 2%></td>
+                <td><%=data[0].date_time%></td>
+                <td><%=data[0].voltage%></td>
+                <td><%=data[0].current%></td>
+                <td><%=data[0].power%></td>
+                <td><%=data[0].frequency%></td>
+                <td><%=data[0].power_factor%></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div style="width: 50%;">
+        <div style="text-align: center; margin-bottom: 24px; font-size: medium;"><b>DỮ LIỆU THEO GIỜ</b></div>
+        <div style="display: flex;">
+            <div class="data-item">
+                <div>Voltage [V]</div>
+                <div><%= data[0].voltage %></div>
+            </div>
+            <div class="data-item">
+                <div>Current [A]</div>
+                <div><%= data[0].current %></div>
+            </div>
+        </div>
+
+        <div style="display: flex;">
+            <div class="data-item">
+                <div>Power [W]</div>
+                <div><%= data[0].power %></div>
+            </div>
+            <div class="data-item">
+                <div>Energy [Wh]</div>
+                <div><%= data[0].energy %></div>
+            </div>
+        </div>
+
+        <div style="display: flex;">
+            <div class="data-item">
+                <div>Frequency [Hz]</div>
+                <div><%= data[0].frequency %></div>
+            </div>
+            <div class="data-item">
+                <div>Power Factor [UN]</div>
+                <div><%= data[0].power_factor %></div>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Datetime</th>
+                <th>Voltage [V]</th>
+                <th>Current [A]</th>
+                <th>Power [W]</th>
+                <th>Energy [Wh]</th>
+                <th>Power Factor [UN]</th>
+            </tr>
+            <tr>
+                <td><%=data[0].id%></td>
+                <td><%=data[0].date_time%></td>
+                <td><%=data[0].voltage%></td>
+                <td><%=data[0].current%></td>
+                <td><%=data[0].power%></td>
+                <td><%=data[0].frequency%></td>
+                <td><%=data[0].power_factor%></td>
+            </tr>
+            <tr>
+                <td><%=data[0].id + 1%></td>
+                <td><%=data[0].date_time%></td>
+                <td><%=data[0].voltage%></td>
+                <td><%=data[0].current%></td>
+                <td><%=data[0].power%></td>
+                <td><%=data[0].frequency%></td>
+                <td><%=data[0].power_factor%></td>
+            </tr>
+            <tr>
+                <td><%=data[0].id + 2%></td>
+                <td><%=data[0].date_time%></td>
+                <td><%=data[0].voltage%></td>
+                <td><%=data[0].current%></td>
+                <td><%=data[0].power%></td>
+                <td><%=data[0].frequency%></td>
+                <td><%=data[0].power_factor%></td>
+            </tr>
+        </table>
+    </div>
+</div>
